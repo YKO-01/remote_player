@@ -13,4 +13,6 @@ urlpatterns = [
     path('tournament/', views.room, name='room'),
     path('tournament/<str:room_name>/', views.tournament, name='tournament'),
     path('game/', views.index, name='index'),
+    path('game/room1/', views.index, name='index'),
+
 ]
